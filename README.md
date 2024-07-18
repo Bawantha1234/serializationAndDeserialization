@@ -1,8 +1,10 @@
 # serializationAndDeserialization
-#SERIALIZATION
+SERIALIZATION
+ 
  Serialization is  the process of converting objects to ByteSteam.
 
-#DESERIALIZATION
+DESERIALIZATION
+   
    Deserialization is the process of converting a Byte stream to an object.it is the    reverse process of serialization.
 		
 		
