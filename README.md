@@ -43,3 +43,5 @@ SerialVersionUID The Serialization runtime associates a version number with each
 
 A Serializable class can declare its own UID explicitly by declaring a field name. It must be static, final and of type long. i.e- ANY-ACCESS-MODIFIER static final long serialVersionUID=42L; If a serializable class doesn’t explicitly declare a serialVersionUID, then the serialization runtime will calculate a default one for that class based on various aspects of class, as described in Java Object Serialization Specification. However it is strongly recommended that all serializable classes explicitly declare serialVersionUID value, since its computation is highly sensitive to class details that may vary depending on compiler implementations, any change in class or using different id may affect the serialized data. It is also recommended to use a private modifier for UID since it is not useful as an inherited member. serialver The serialver is a tool that comes with JDK. It is used to get serialVersionUID numbers for Java classes.
 
+https://docs.google.com/document/d/1tZPEzG9wQFpd79sHdMtDftNRmeHGDsCB5UUS03GH470/edit?usp=sharing
+
